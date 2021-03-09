@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8B1B1"
+    android:onClick="onClick"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/aloe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/fish"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/aloe"
+        tools:srcCompat="@drawable/aloe" />
+
+    <ImageView
+        android:id="@+id/bee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/pen"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/bee" />
+
+    <ImageView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aloe"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/blueberry" />
+
+    <ImageView
+        android:id="@+id/fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pen"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/fish" />
+
+    <ImageView
+        android:id="@+id/fox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pig"
+        android:layout_toLeftOf="@id/sheep"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/fox" />
+
+    <ImageView
+        android:id="@+id/lemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fish"
+        android:layout_toRightOf="@id/aloe"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/lemon" />
+
+    <ImageView
+        android:id="@+id/pen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/penguin" />
+
+    <ImageView
+        android:id="@+id/pig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bee"
+        android:layout_toRightOf="@id/fish"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/pig" />
+
+    <ImageView
+        android:id="@+id/tomato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lemon"
+        android:layout_toRightOf="@id/blue"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/tomato" />
+
+    <ImageView
+        android:id="@+id/sheep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fox"
+        android:layout_toRightOf="@id/tomato"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/sheep" />
+
+
+</RelativeLayout>
